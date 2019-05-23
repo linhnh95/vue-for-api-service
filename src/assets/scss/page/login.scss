@@ -1,0 +1,39 @@
+.base-login{
+
+    .form-login{
+        position: absolute;
+        width: 400px;
+        height: 200px;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        background: #EEEEEE;
+        text-align: center;
+
+        .form-login-top{
+            height:50px;
+        }
+
+        .form-login-middle{
+            height:100px;
+
+            .form-element{
+                margin-top: 10px;
+
+                &:first-child{
+                    margin-top:0px;
+                }
+            }
+        }
+
+        .form-login-footer{
+            height:50px;
+
+            .notice-warning{
+                color: #FF0000;
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+}
